@@ -8,6 +8,7 @@ var ezeshopper= {
 
 	add_item: function(){
 		if (ezeshopper.validity()) {
+			event.preventDefault();
 			$('#item ul').append('<li>'+'<input type="checkbox">'+ $("#add_text").val()+ '<a href="#" id="del">delete</a>' + "</li>");
 			$("#add_text").val("");
 		}
