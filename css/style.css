@@ -2,10 +2,17 @@
 Body
 ***********************#3e5b70**************/
 
+header img{
+	/*background: url('../img/logo.png');*/
+	margin-left: 47%;
+
+}
+
 body {
-  background: url('../img/2images.jpg');
+  background: url('../img/a.jpg');
   font-family: 'Nunito', sans-serif;
   color: #384047;
+  background-size: cover;
 	
 }
 
@@ -34,7 +41,7 @@ Div Container for list
 	height: 70%;
 	border: 2px solid #1d2e3a;
 	border-radius: 10px;
-	background-color: #669eff;
+	background-color: transparent;
 	text-align: center;
 	min-height: 30px;
 }
@@ -48,7 +55,7 @@ Div Container for list
 	height: 80%;
 	border: 2px solid #1d2e3a;
 	border-radius: 10px;
-	background-color: white;
+	background-color: rgba(0, 0, 255, .3);
 	text-align: center;
 	min-height: 30px;
 }
@@ -71,7 +78,7 @@ Div Container for list
 	padding: 2px;
 	width: 95%;
 	height: 80%;
-	background-color: skyblue ;
+	background-color:  ;
 	text-align: left;
 	min-height: 30px;
 }
@@ -98,4 +105,8 @@ Div Container for list
 }
 
 
+#del {
+	float: right;
+	text-decoration: none;
 
+}
