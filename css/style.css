@@ -3,20 +3,23 @@ Body
 ***********************#3e5b70**************/
 
 header img{
-	/*background: url('../img/logo.png');*/
 	margin-left: 47%;
 
 }
 
 body {
-  background: url('../img/images.jpg');
+  background: url('../img/banner.jpg');
   font-family: 'Nunito', sans-serif;
   color: #384047;
   background-size: cover;
 	
 }
 
-
+/*body img{
+	position: absolute;
+	float: left;
+}
+*/
 h1 {
   margin: 0 0 30px 0;
   text-align: center;
@@ -28,7 +31,7 @@ h1 {
 h2 {
    text-align: center;
   font-size: 1.2em;
-  color: blue;
+  color: white;
 }
 
 
@@ -57,7 +60,7 @@ Div Container for list
 	height: 80%;
 	border: 2px solid #1d2e3a;
 	border-radius: 10px;
-	background-color: rgba(240, 0, 5, .3);
+	background-color: rgba(0, 0, 255, .5);
 	text-align: center;
 	min-height: 30px;
 }
@@ -110,8 +113,9 @@ Div Container for list
 #del {
 	float: right;
 	text-decoration: none;
+	color: white;	
 }
 
 li {
-	color: blue;
+	color: white;
 }

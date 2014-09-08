@@ -42,7 +42,6 @@ var ezeshopper= {
 		
 	}
 
-
 };
 
 $(document).ready(ezeshopper.onReady);
