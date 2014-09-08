@@ -1,0 +1,121 @@
+/************************************
+Body
+***********************#3e5b70**************/
+
+header img{
+	margin-left: 47%;
+
+}
+
+body {
+  background: url('../img/banner.jpg');
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+  background-size: cover;
+	
+}
+
+/*body img{
+	position: absolute;
+	float: left;
+}
+*/
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+  font-size: 1.5em;
+  color: blue;
+}
+
+
+h2 {
+   text-align: center;
+  font-size: 1.2em;
+  color: white;
+}
+
+
+/************************************
+Div Container for list
+***********************#3e5b70**************/
+
+.container {
+	margin: 20px auto;
+	padding: 5px;
+	width: 70%;
+	height: 70%;
+	border: 2px solid #1d2e3a;
+	border-radius: 10px;
+	background-color: transparent;
+	text-align: center;
+	min-height: 30px;
+}
+
+
+ 
+.list {
+	margin: 15px auto;
+	padding: 5px;
+	width: 90%;
+	height: 80%;
+	border: 2px solid #1d2e3a;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 255, .5);
+	text-align: center;
+	min-height: 30px;
+}
+
+
+
+#item {
+	margin: 10px  auto;
+	padding: 2px;
+	width: 95%;
+	height: 80%;
+	background-color: ;
+	text-align: left;
+	min-height: 30px;
+}
+
+
+#checked {
+	margin: 10px  auto;
+	padding: 2px;
+	width: 95%;
+	height: 80%;
+	background-color:  ;
+	text-align: left;
+	min-height: 30px;
+}
+
+
+
+/****form for add list***#3e5b70*****/
+
+ #add_text {
+ 	width: 80%;
+ 	height: 20px;
+ }
+
+
+#add_button  {
+	color: black;
+	width: 80px;
+	height: 30px;
+	font-size: 15px;
+	text-align: center;
+	font-style: normal;
+    border-radius: 6px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+}
+
+
+#del {
+	float: right;
+	text-decoration: none;
+	color: white;	
+}
+
+li {
+	color: white;
+}
