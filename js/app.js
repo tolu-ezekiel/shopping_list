@@ -23,6 +23,8 @@ var ezeshopper= {
 				alert("PLease enter a valid item");
 			}
 		$("#add_text").val("");
+		event.preventDefault();
+
 	},
 
 /***********add item into checked list*****************/
