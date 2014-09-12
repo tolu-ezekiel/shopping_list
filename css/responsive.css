@@ -1,0 +1,13 @@
+@media screen and (max-width: 750px) {
+
+	body {
+
+	  background: url('../img/banner2.png') no-repeat;
+	  font-family: 'Nunito', sans-serif;
+	  color: #384047;
+	  
+	}
+
+} 
+
+
