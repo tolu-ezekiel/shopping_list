@@ -44,8 +44,9 @@ var ezeshopper= {
 
 /***********delete item from both lists*****************/
 	item_delete: function(){
-		var delete_item = $(this).parent();
-		delete_item.remove();
+		var delete_item = $(this).parent().slideUp(300, function(){
+			delete_item.remove();
+		});
 		
 	}
 
