@@ -2,6 +2,10 @@
 Body
 ***********************#3e5b70**************/
 
+/*header {
+	margin: 0 auto;
+}*/
+
 header img{
 	margin-left: 47%;
 
@@ -84,12 +88,11 @@ Div Container for lists
 	padding: 2px;
 	width: 95%;
 	height: 80%;
-	background-color:  ;
 	text-align: left;
 	min-height: 30px;
 	text-decoration: line-through;
-}
-
+/*	color: red;
+*/}
 
 
 /****form for add list***#3e5b70*****/

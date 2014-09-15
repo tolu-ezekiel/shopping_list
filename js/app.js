@@ -6,7 +6,7 @@ var ezeshopper= {
 		$("div.list").on('click', 'a#del', ezeshopper.item_delete);
 	},
 
-/***********add item into list*****************/
+	/***********add item into list*****************/
 	add_item: function(){
 		if (ezeshopper.validity()) {
 			event.preventDefault();
@@ -15,7 +15,7 @@ var ezeshopper= {
 		}
 	},
 
-/***********check for validity of input*****************/
+	/***********check for validity of input*****************/
 	validity: function() {
 		if ($.trim($("#add_text").val()) !="") {
 			return $("#add_text");
@@ -27,7 +27,7 @@ var ezeshopper= {
 
 	},
 
-/***********add item into checked list*****************/
+	/***********add item into checked list*****************/
 	checkoff: function(){
 		var check_off = $(this).parent();
 		var direction = check_off.parents("#checked ul").length==0;
@@ -42,14 +42,13 @@ var ezeshopper= {
 		}
 	},
 
-/***********delete item from both lists*****************/
+	/***********delete item from both lists*****************/
 	item_delete: function(){
-		var delete_item = $(this).parent().slideUp(300, function(){
+		var delete_item = $(this).parent().slideUp(500, function(){
 			delete_item.remove();
 		});
-		
 	}
-
+	
 };
 
 $(document).ready(ezeshopper.onReady);
